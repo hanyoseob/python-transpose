@@ -20,7 +20,7 @@ from numpy.fft import fft2, ifft2, fftshift, ifftshift
 import numpy as np
 
 ## Generate data A in R ^ ( N x M ), X in R ^ ( M x K ) and Y in R ^ ( N x K )
-dataType = 'IMAG'    # dataType = [COMPLEX, REAL, IMAG]
+dataType = 'COMPLEX'    # dataType = [COMPLEX, REAL, IMAG]
 N = 100
 M = N
 K = N
